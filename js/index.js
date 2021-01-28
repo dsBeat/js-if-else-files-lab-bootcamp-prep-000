@@ -1,7 +1,7 @@
-var names = "Susan"
+var name = "Susan"
 var height = 70
 
-if (names === "Susan"){
+if (name === "Susan"){
   console.log("The name is correct")
 }
 else{
@@ -9,5 +9,5 @@ else{
 }
 
 // Don't worry about this
-module.exports = { names, height
+module.exports = { name, height
 }
